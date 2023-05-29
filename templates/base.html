@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+{% load static %}
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="no-cache" http-equiv="pragma">
+   <meta content="max-age=604800" http-equiv="cache-control"/>
+   <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport"/>
+   <title>
+    GreatKart | One of the Biggest Online Shopping Platform
+   </title>
+   <link href="{% static 'assets/images/favicon.ico' %}" rel="shortcut icon" type="image/x-icon"/>
+   <!-- jQuery -->
+   <script src="{% static 'assets/js/jquery-2.0.0.min.js' %}" type="text/javascript">
+   </script>
+   <!-- Bootstrap4 files-->
+   <script src="{% static 'assets/js/bootstrap.bundle.min.js' %}" type="text/javascript">
+   </script>
+   <link href="{% static 'assets/css/bootstrap.css' %}" rel="stylesheet" type="text/css">
+    <!-- Font awesome 5 -->
+    <link href="{% static 'assets/fonts/fontawesome/css/all.min.css' %}" rel="stylesheet" type="text/css"/>
+    <!-- custom style -->
+    <link href="{% static 'assets/css/ui.css' %}" rel="stylesheet" type="text/css">
+     <link href="{% static 'assets/css/responsive.css' %}" media="only screen and (max-width: 1200px)" rel="stylesheet"/>
+     <!-- custom javascript -->
+     <script src="{% static 'assets/js/script.js' %}" type="text/javascript">
+     </script>
+     <script type="text/javascript">
+      /// some script
+
+// jquery ready start
+$(document).ready(function() {
+	// jQuery code
+
+}); 
+// jquery end
+     </script>
+    </link>
+   </link>
+  </meta>
+ </head>
+ <body>
+
+{% include 'includes/navbar.html' %}
+{% block content %}
+
+{% endblock %}
+{% include 'includes/footer.html' %}
